@@ -12,9 +12,21 @@ body {
     background-size: cover;
 }
 
+.bloco_header h1 {
+  color: #fff;
+}
+
+.bloco_header p {
+  color: #fff;
+}
+
 .bloco_header {
-    background-color: #fff;
     border-radius: 5%;
+}
+
+.bloco_header .btn.btn-outline-primary {
+  border: 1px #fff solid;
+  color: #fff;
 }
 
   /*
