@@ -17,7 +17,9 @@ $(function() {
     })
 
     $(".menu a").click(function() {
-    	abre_menu()
+	if ($(window).width() <= 768) {
+    		abre_menu()
+	}
     })
 
 })
