@@ -12,6 +12,12 @@ body {
     background-size: cover;
 }
 
+.form_contato {
+  background-color: cyan;
+  margin: 0 auto;
+  padding: 5%;;
+}
+
 .bloco_header h1 {
   color: #fff;
 }
@@ -22,6 +28,14 @@ body {
 
 .bloco_header {
     border-radius: 5%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu a {
+  color: #000;
 }
 
 .bloco_header .btn.btn-outline-primary {
@@ -88,4 +102,39 @@ body {
 .listar .listarItem a {
     font-size: 20px;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+  .redes-sociais a {
+    display: none;
+  }
+
+  .menu a {
+    text-align: center;
+    border-bottom: 1px #ddd solid;
+    display: none;
+  }
+
+  .banner {
+    position: absolute;
+    background-image: url(../img/banner_mobile.jpg);
+    z-index: -1;
+  }
+
+  .bloco_header  h1 {
+    color: #444;
+    text-shadow: 1px 1px 1px #fff;
+  }
+
+  .bloco_header  p {
+    color: #444;
+    text-shadow: 1px 1px 1px #fff;
+  }
+
+  .bloco_header .btn.btn-outline-primary {
+    background-color: #444;
+    color: #fff;
+    border-bottom: 1px #444 solid;
+  }
+
 }
