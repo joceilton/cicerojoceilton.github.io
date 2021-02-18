@@ -98,11 +98,12 @@ body {
   color: #fff;
 }
 
-.container_blog {
-  background-color: #eee;
+#blog {
+  background-color: #fafafa;
+  padding: 50px 0;
 }
 
-.container_blog .titulo_blog {
+#blog .titulo_blog {
   font-size: 30px;
   border-bottom: 1px #333 solid;
 }
