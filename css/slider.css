@@ -64,7 +64,7 @@
     font-size: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .testimonial6 .testi6 .nav-link {
     margin: 0px 0px -2px 0;
     padding: 10px;

@@ -2,6 +2,51 @@ body {
     background-color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #43348d;
+  border: 30px none #ffffff;
+  border-radius: 9px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #4c4848;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 25px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.scroll-escondido {
+  width: 540px; /* menos 5px (scroll width) do que a largura do iframe (Chrome) */
+  height: 305px;
+  margin: 0 auto;
+  overflow: hidden; /* importante para cortar o cumprimento do elemento */
+}
+#frame-spec{
+  width: 540px;
+  height: 305px;
+}
+
 .container {
     max-width: 960px;
   }
@@ -36,8 +81,8 @@ body {
 }
 
 #servicos {
-  background-color: #000;
-  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
 }
 
 .menu {
@@ -165,13 +210,7 @@ body {
   -webkit-box-flex: 1;
   flex: 1;
 }
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
-  }
-}
+
 
 .overflow-hidden { overflow: hidden; }
 
@@ -213,6 +252,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   .redes-sociais a {
     display: none;
   }
