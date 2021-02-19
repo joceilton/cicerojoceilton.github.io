@@ -6,11 +6,21 @@ $(function() {
 
 	setTimeout(function() {
 		$(".loading").fadeOut('slow')
-	}, 5000)
+	}, 1000)
+
+    setTimeout(function() {
+        $(".titulo").addClass('animate__animated animate__bounce animate__repeat-2')
+    }, 2000)
 
     function abre_menu() {
         $(".menu a").slideToggle('slow')
     }
+
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() >= 200) {
+
+        }
+    })
 
     $(".btn_menu").on("click", function() {
         abre_menu()

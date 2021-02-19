@@ -65,31 +65,42 @@ body {
   border: 0;
 }
 
-.mobile_infor {
+.banner_infor {
+  width: 70%;
+  height: 70%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
+  margin: 0 auto;
 }
 
-.mobile_infor h1 {
+.banner_infor h1 {
+  width: 100%;
   font-size: 30px;
   color: #43348d;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
 }
 
-.mobile_infor p {
+.banner_infor p {
+  width: 100%;
   font-size: 18px;
   color: #444;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .btn_menu {
-  background-color: #673ab7;
-  columns: #fff;
+  background-color: #fff;
   border: 0;
 }
 
 .btn_menu .fa {
   color: #fff;
+}
+
+.btn_contato {
+  border: 1px #444 solid;
+  color: #444;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .descricao {
@@ -124,12 +135,7 @@ body {
 }
 
 .menu a {
-  color: #000;
-}
-
-.bloco_header .btn.btn-outline-primary {
-  border: 1px #fff solid;
-  color: #fff;
+  color: #f00;
 }
 
 #blog {
@@ -255,11 +261,11 @@ body {
     backdrop-filter: saturate(180%) blur(20px);
   }
   .site-header a {
-    color: #999;
+    color: #444;
     transition: ease-in-out color .15s;
   }
   .site-header a:hover {
-    color: #fff;
+    color: #999;
     text-decoration: none;
   }
 
@@ -305,7 +311,31 @@ body {
     background-size: auto 100%;
     z-index: -1;
     height: 50vh;
+    margin-bottom: 50%;
+    background-color: #673bb7;
   }
+
+  .banner_infor {
+  width: 70%;
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.banner_infor h1 {
+  width: 100%;
+  font-size: 20px;
+  color: #43348d;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.banner_infor p {
+  width: 100%;
+  font-size: 14px;
+  color: #444;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
 
   .bloco_header  h1 {
     font-size: 20px;
