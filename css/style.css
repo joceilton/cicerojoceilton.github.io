@@ -49,10 +49,6 @@ body {
   height: auto;
 }
 
-.container {
-    max-width: 960px;
-  }
-
 .banner {
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
@@ -297,6 +293,10 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  body {
+    background-color: #673ab7;
+}
 
   .redes-sociais a {
     display: none;
