@@ -43,8 +43,10 @@ body {
   overflow: hidden; /* importante para cortar o cumprimento do elemento */
 }
 #frame-spec{
-  width: 540px;
-  height: 305px;
+  max-width: 540px;
+  max-height: 305px;
+  width: auto;
+  height: auto;
 }
 
 .container {
@@ -56,6 +58,38 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.btn.btn-primary {
+  background-color: #673ab7;
+  border: 0;
+}
+
+.mobile_infor {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+.mobile_infor h1 {
+  font-size: 30px;
+  color: #43348d;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.mobile_infor p {
+  font-size: 18px;
+  color: #444;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn_menu {
+  background-color: #673ab7;
+  columns: #fff;
+  border: 0;
+}
+
+.btn_menu .fa {
+  color: #fff;
 }
 
 .descricao {
@@ -99,7 +133,7 @@ body {
 }
 
 #blog {
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 50px 0;
 }
 
@@ -109,7 +143,7 @@ body {
 }
 
 .container_rodape {
-  background-color: #444;
+  background-color: #673ab7;
 }
 
 .container_rodape .icon {
@@ -232,6 +266,7 @@ body {
 
 .img-logo {
     width: 24px;
+    fill:#0562DC
 }
 
 .site-header {
@@ -266,11 +301,14 @@ body {
 
   .banner {
     position: absolute;
-    background-image: url(../img/banner_mobile.jpg);
+    background-image: url(../img/banner.jpg);
+    background-size: auto 100%;
     z-index: -1;
+    height: 50vh;
   }
 
   .bloco_header  h1 {
+    font-size: 20px;
     color: #444;
     text-shadow: 1px 1px 1px #fff;
   }
